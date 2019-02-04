@@ -14,6 +14,6 @@ class OneClickIntegration < Formula
   depends_on "kubectl" => :recommended
 
   def install
-    bin.install "one-click-integration"
+    bin.install "one-click-integration-script"
   end
 end
