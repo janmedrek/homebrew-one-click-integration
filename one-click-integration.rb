@@ -10,7 +10,6 @@ class OneClickIntegration < Formula
   depends_on "jq"
   depends_on "curl"
   depends_on "openssl"
-  depends_on "base64"
   depends_on "kubectl" => :recommended
 
   def install
